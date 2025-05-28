@@ -1,0 +1,16 @@
+{
+  "lr_feat": 5e-3,
+  "lr_adj": 5e-3,
+  "dis_metric": "mse",
+  "outer_loop": 10,
+  "threshold": 0.01,
+  "condense_model": "GCN",
+  "apply_dro": true,
+  "apply_dp": true,
+  "target_epsilon": 10.0,
+  "down_epsilon": 10.0,
+  "adaptive_noise": true,
+  "use_noise_decay":false,
+  "noise_decay_factor":0.01,
+  "noise_decay_steps":200
+}
